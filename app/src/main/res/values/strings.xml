@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_adiblar">Adiblar</string>
+    <string name="menu_saqlanganlar">Saqlanganlar</string>
+    <string name="menu_setting">Sozlamalar</string>
+    <string name="o_zbek_adabiyoti">O\'zbek adabiyoti</string>
+    <string name="jahon_adabiyoti">Jahon adabiyoti</string>
+    <string name="boshqa_adabiyotlar">Boshqa adabiyotlar</string>
+    <string name="adiblar_va_kitoblar_haqida">Adiblar va kitoblar haqida</string>
+    <string name="sozlamalar">Sozlamalar</string>
+    <string name="ulashish">Ulashish</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="kitob_qo_shish">Kitob qo\'shish</string>
+    <string name="author_name">Kitob muallifi</string>
+    <string name="kitob_haqida_qisqacha_ma_lumot">Kitob haqida qisqacha ma\'lumot</string>
+    <string name="saqlash">Saqlash</string>
+    <string name="book_name">Kitob nomi</string>
+    <string name="ilova_haqida">Ilova mustaqil ish uchun Android dasturchi Otaboev Mansurjon tomonidan kitobxonlar uchun beg\'araz tayyorlandi. Ilovani boshqa kitobxon yaqinlaringiz bilan albatta ulashish. Bu ilovada siz qayd etgan ma\'lumotlarni butun o\'zbekzabon kitobxonlari o\'qishligini eslatib o\'tamiz. Shunga ko\'ra ma\'lumotlar to\'g\'ri ekaniga va diniy-axloqiy normalarga to\'g\'ri kelishiga ishonch hosil qilgandan keyingina saqlashingizni so\'raymiz. Siz ilovaga o\'zingiz o\'qigan kitoblarni boshqa kitobxonlarga tavsiya etish maqsadida ma\'lumot qo\'shishingiz mumkin.</string>
+    <string name="kitobning_nomi">Kitobning nomi</string>
+    <string name="adib_qo_shish">Adib qo\'shish</string>
+    <string name="kitob_rasmi">Kitob rasmi</string>
+    <string name="adib_ismi">Adib ismi</string>
+    <string name="kitob_nomi">Kitob nomi</string>
+    <string name="category">Category</string>
+    <string name="janr">Janr</string>
+    <string name="_20_12_2021">20.12.2021</string>
+    <string name="til">Til</string>
+    <string name="kitob_muallifi">Kitob muallifi</string>
+    <string name="ro_yxatdan_o_tish">Ro\'yxatdan o\'tish</string>
+    <string name="gmail_orqali">G-mail orqali</string>
+    <string name="telefon_raqami_orqali">Telefon raqam orqali</string>
+    <string name="_998">+998</string>
+    <string name="send">Send</string>
+</resources>

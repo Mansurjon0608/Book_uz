@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "474893316403",
+    "firebase_url": "https://kitobxonlar-6a8f5-default-rtdb.firebaseio.com",
+    "project_id": "kitobxonlar-6a8f5",
+    "storage_bucket": "kitobxonlar-6a8f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474893316403:android:9220c3b0ae4f1082b10e46",
+        "android_client_info": {
+          "package_name": "com.example.adiblarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474893316403-hqv78570ucahrl98nigmvtf7hemoanh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXFR9Szi7QJSUd5GawpyD_KNxpLVLMUiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474893316403-hqv78570ucahrl98nigmvtf7hemoanh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474893316403:android:db3d85660a4f0ec0b10e46",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474893316403-hqv78570ucahrl98nigmvtf7hemoanh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXFR9Szi7QJSUd5GawpyD_KNxpLVLMUiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474893316403-hqv78570ucahrl98nigmvtf7hemoanh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navi"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/adiblarFragment"
+        android:name="com.example.myapplication.AdiblarFragment"
+        android:label="fragment_adiblar"
+        tools:layout="@layout/fragment_adiblar" >
+        <action
+            android:id="@+id/action_adiblarFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saqlanganlarFragment"
+        android:name="com.example.myapplication.SaqlanganlarFragment"
+        android:label="fragment_saqlanganlar"
+        tools:layout="@layout/fragment_saqlanganlar" >
+        <action
+            android:id="@+id/action_saqlanganlarFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sozlamalarFragment"
+        android:name="com.example.myapplication.SozlamalarFragment"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" >
+        <action
+            android:id="@+id/action_sozlamalarFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uzbekAdabiyotiFragment"
+        android:name="com.example.myapplication.UzbekAdabiyotiFragment"
+        android:label="fragment_uzbek_adabiyoti"
+        tools:layout="@layout/fragment_uzbek_adabiyoti" >
+        <action
+            android:id="@+id/action_uzbekAdabiyotiFragment_to_adiblarFragment"
+            app:destination="@id/adiblarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jahonAdabiyotiFragment"
+        android:name="com.example.myapplication.JahonAdabiyotiFragment"
+        android:label="fragment_jahon_adabiyoti"
+        tools:layout="@layout/fragment_jahon_adabiyoti" >
+        <action
+            android:id="@+id/action_jahonAdabiyotiFragment_to_adiblarFragment"
+            app:destination="@id/adiblarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boshqaAdabiyotFragment"
+        android:name="com.example.myapplication.BoshqaAdabiyotFragment"
+        android:label="fragment_boshqa_adabiyot"
+        tools:layout="@layout/fragment_boshqa_adabiyot" >
+        <action
+            android:id="@+id/action_boshqaAdabiyotFragment_to_adiblarFragment"
+            app:destination="@id/adiblarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ilovaHaqidaFragment"
+        android:name="com.example.myapplication.IlovaHaqidaFragment"
+        android:label="fragment_ilova_haqida"
+        tools:layout="@layout/fragment_ilova_haqida" >
+        <action
+            android:id="@+id/action_ilovaHaqidaFragment_to_sozlamalarFragment"
+            app:destination="@id/sozlamalarFragment" />
+    </fragment>
+
+        <fragment
+            android:id="@+id/adibInfoFragment"
+            android:name="com.example.myapplication.AdibInfoFragment"
+            android:label="fragment_adib_info"
+            tools:layout="@layout/fragment_adib_info" >
+            <action
+                android:id="@+id/action_adibInfoFragment_to_boshqaAdabiyotFragment"
+                app:destination="@id/boshqaAdabiyotFragment" />
+            <action
+                android:id="@+id/action_adibInfoFragment_to_jahonAdabiyotiFragment"
+                app:destination="@id/jahonAdabiyotiFragment" />
+            <action
+                android:id="@+id/action_adibInfoFragment_to_uzbekAdabiyotiFragment"
+                app:destination="@id/uzbekAdabiyotiFragment" />
+        </fragment>
+
+    <fragment
+        android:id="@+id/adibQoshishFragment2"
+        android:name="com.example.myapplication.AdibQoshishFragment"
+        android:label="fragment_adib_qoshish"
+        tools:layout="@layout/fragment_adib_qoshish" >
+        <action
+            android:id="@+id/action_adibQoshishFragment2_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.myapplication.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_adiblarFragment"
+            app:destination="@id/adiblarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.myapplication.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_sozlamalarFragment"
+            app:destination="@id/sozlamalarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneSignFragment"
+        android:name="com.example.myapplication.PhoneSignFragment"
+        android:label="fragment_phone_sign"
+        tools:layout="@layout/fragment_phone_sign" >
+        <action
+            android:id="@+id/action_phoneSignFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_category">
+    <item>O\'zbek adabiyoti</item>
+    <item>Jahon adabiyoti</item>
+    <item>Boshqa adabiyot</item>
+    </string-array>
+
+    <string-array name="spinner_til">
+        <item>O\'zbek tilida</item>
+        <item>Русскый</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="spinner_janr">
+        <item>Badiiy adabiyot</item>
+        <item>Ilm-fanga oid </item>
+        <item>Detektiv </item>
+        <item>Texnikaga oid</item>
+        <item>Fantastika</item>
+        <item>Bolalar uchun</item>
+        <item>Hajviya</item>
+        <item>Hikoya</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemAdib"
+        android:title="@string/menu_adiblar"
+        android:icon="@drawable/ic_baseline_contacts_24"/>
+
+    <item
+        android:id="@+id/itemSaqlangan"
+        android:title="@string/menu_saqlanganlar"
+        android:icon="@drawable/ic_baseline_bookmark_24"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="@string/menu_setting"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+</menu>

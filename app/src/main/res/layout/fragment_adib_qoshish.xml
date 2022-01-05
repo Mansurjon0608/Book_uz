@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdibQoshishFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/adib_qo_shish"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_kitob"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/book"
+            tools:ignore="ContentDescription" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rasm_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
+            android:outlineAmbientShadowColor="@color/selected"
+            android:outlineSpotShadowColor="@color/selected"
+            app:cardCornerRadius="20sp"
+            app:cardElevation="7sp"
+            tools:ignore="UnusedAttribute">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/selected"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:paddingVertical="10sp"
+                android:text="@string/kitob_rasmi"
+                android:textColor="@color/white" />
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/edt_kitob_nomi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5sp"
+            android:background="#C4C4C4"
+            android:hint="@string/kitob_nomi"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="#979797"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edt_Author_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5sp"
+            android:background="#C4C4C4"
+            android:hint="@string/kitob_muallifi"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="#979797"
+            android:textStyle="italic"
+            tools:ignore="Autofill,TextFields" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/spring_progress"
+            android:indeterminateOnly="true"
+            android:visibility="gone"
+
+            />
+
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:entries="@array/spinner_category"
+            android:padding="15sp" />
+
+
+        <Spinner
+            android:id="@+id/spinner_janr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:entries="@array/spinner_janr"
+            android:padding="15sp" />
+
+
+        <Spinner
+            android:id="@+id/spinner_til"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:entries="@array/spinner_til"
+            android:padding="15sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/edt_malumot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5sp"
+            android:layout_weight="1"
+            android:background="#C4C4C4"
+            android:gravity="top"
+            android:hint="@string/kitob_haqida_qisqacha_ma_lumot"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="#979797"
+            tools:ignore="InefficientWeight" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_save_new_adib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:outlineAmbientShadowColor="@color/selected"
+            android:outlineSpotShadowColor="@color/selected"
+            app:cardCornerRadius="20sp"
+            app:cardElevation="7sp"
+            tools:ignore="UnusedAttribute">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00B238"
+                android:gravity="center"
+                android:paddingHorizontal="50dp"
+                android:paddingVertical="10sp"
+                android:text="@string/saqlash"
+                android:textColor="@color/white" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
